@@ -3303,7 +3303,13 @@ msgctxt "#801"
 msgid "Would you like to scan now?"
 msgstr ""
 
-#empty strings from id 802 to 849
+#. Label of progess bar which shows the available/total space of pvr backend
+#: xbmc/pvr/PVRGUIInfo.cpp
+msgctxt "#802"
+msgid "%s of %s available"
+msgstr ""
+
+#empty strings from id 803 to 849
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -6099,10 +6105,7 @@ msgctxt "#13439"
 msgid "Allow hardware acceleration (MediaCodec)"
 msgstr ""
 
-#: system/settings/settings.xml
-msgctxt "#13440"
-msgid "Allow multi threaded software decoding"
-msgstr ""
+# empty string with id 13440
 
 #: system/settings/settings.xml
 msgctxt "#13441"
@@ -6743,7 +6746,7 @@ msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#14087"
-msgid "DVDs"
+msgid "Discs"
 msgstr ""
 
 #: system/settings/settings.xml
@@ -6815,7 +6818,25 @@ msgctxt "#14101"
 msgid "Acceleration"
 msgstr ""
 
-#empty strings from id 14102 to 15011
+#. Name of a setting for Blu-ray playback mode
+#: system/settings/settings.xml
+msgctxt "#14102"
+msgid "Blu-ray playback mode"
+msgstr ""
+
+#. Playback mode option for Blu-ray
+#: system/settings/settings.xml
+msgctxt "#14103"
+msgid "Play main movie"
+msgstr ""
+
+#. Playback mode option for Blu-ray
+#: system/settings/settings.xml
+msgctxt "#14104"
+msgid "Show simplified menu"
+msgstr ""
+
+#empty strings from id 14105 to 15011
 
 #: xbmc/video/VideoDatabase.cpp
 msgctxt "#15012"
@@ -12527,9 +12548,11 @@ msgctxt "#25002"
 msgid "Select from all titles ..."
 msgstr ""
 
+#. A Blu-ray playback mode and a option in the simplified Blu-ray menu
 #: xbmc/filesystem/BlurayDirectory.cpp
+#: system/settings/settings.xml
 msgctxt "#25003"
-msgid "Show Blu-ray menus"
+msgid "Show Blu-ray menu"
 msgstr ""
 
 #: xbmc/filesystem/BlurayDirectory.cpp
@@ -15350,11 +15373,7 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using AMLogic decoder."
 msgstr ""
 
-#. Description of setting "Videos -> Playback -> Allow frame-multi-threaded decoding" with label #13440
-#: system/settings/settings.xml
-msgctxt "#36423"
-msgid "Enables frame-multi-threaded software decoding (less reliable than the default single threaded mode)."
-msgstr ""
+#empty string with id 36423
 
 #: system/settings/settings.xml
 msgctxt "#36424"
@@ -15411,7 +15430,19 @@ msgctxt "#36433"
 msgid "If enabled VAAPI render method is prefered. This puts less load on the CPU but driver may hang!"
 msgstr ""
 
-#empty strings from id 36434 to 36499
+#. Description of setting "Videos -> Playback -> Enable MMAL hardware decoding of video files"
+#: system/settings/settings.xml
+msgctxt "#36434"
+msgid "Allow hardware acceleration (MMAL)"
+msgstr ""
+
+#. Description of setting "Videos -> Playback -> Enable MMAL hardware decoding of video files"
+#: system/settings/settings.xml
+msgctxt "#36435"
+msgid "Use DVDPlayer for decoding of video files with MMAL acceleration."
+msgstr ""
+
+#empty strings from id 36436 to 36499
 #end reservation
 
 #. label of a setting for the stereoscopic 3D mode of the GUI that is/should be applied
@@ -15478,7 +15509,7 @@ msgctxt "#36509"
 msgid "Monoscopic (2D)"
 msgstr ""
 
-#empty (BUT RESERVED) strings from id 36510 to 36519
+#empty strings from id 36510 to 36519
 #end of reserved strings for 3d modes
 
 #. Name of a setting, asking the user for the default playback mode (2D, 3D, ask) of stereoscopic videos
@@ -15493,7 +15524,7 @@ msgctxt "#36521"
 msgid "Ask me"
 msgstr ""
 
-# empty string 36522
+#empty string with id 36522
 
 #. Description of setting "System -> Audio output -> Limit sampling rate (kHz)" with label #458
 #: system/settings/settings.xml
@@ -15532,7 +15563,7 @@ msgctxt "#36528"
 msgid "Select stereoscopic 3D mode"
 msgstr ""
 
-# empty labels 36529, 36530
+#empty strings from id 36529 to 36530
 
 #. option label of a setting/dialog asking for the desired stereoscopic playback mode
 #: guilib/StereoscopicsManager.cpp
@@ -15575,7 +15606,7 @@ msgstr ""
 #. Description of setting "Videos -> Playback -> Playback mode of stereoscopic videos" with label #36520
 #: system/settings/settings.xml
 msgctxt "#36537"
-msgid "Select in which mode stereoscopic 3D videos will be played. [Ask me] will show a dialog to select the desired mode for each playback. [Preferred mode] will use of the preferred mode specified in the 'System -> Video Hardware' section of the settings. [Monoscopic (2D)] will play the video in mono/2D. [Ignore] disables any stereoscopic 3D processing and handling".
+msgid "Select in which mode stereoscopic 3D videos will be played. [Ask me] will show a dialog to select the desired mode for each playback. [Preferred mode] will use of the preferred mode specified in the 'System -> Video Hardware' section of the settings. [Monoscopic (2D)] will play the video in mono/2D. [Ignore] disables any stereoscopic 3D processing and handling"
 msgstr ""
 
 #. Description of setting "Videos -> Playback -> Disable stereoscopic mode when playback is stopped" with label #36526
@@ -15893,4 +15924,10 @@ msgstr ""
 #: system/settings/rbp.xml
 msgctxt "#37030"
 msgid "Unlimited"
+msgstr ""
+
+#. Description of setting #14102 Settings -> Video -> Discs -> Blu-ray playback mode
+#: system/settings/settings.xml
+msgctxt "#37031"
+msgid "Specifies how Blu-rays should be opened/played back. Disc menus are not fully supported yet and may cause problems."
 msgstr ""
